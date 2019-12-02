@@ -1,6 +1,4 @@
-package com.zzuli.demo8;
-
-import org.junit.Test;
+package com.zzuli.demo08;
 
 public class TestDoubleLoopNode {
     public static void main(String[] args) {

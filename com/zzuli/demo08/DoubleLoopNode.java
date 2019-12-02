@@ -1,4 +1,4 @@
-package com.zzuli.demo8;
+package com.zzuli.demo08;
 
 /**
  *  双向循环链表
