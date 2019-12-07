@@ -1,5 +1,8 @@
 package com.zzuli.demo06;
 
+/**
+ * 单链表
+ */
 public class Node {
 
     private int data;

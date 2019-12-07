@@ -1,7 +1,7 @@
 package com.zzuli.demo07;
 
 /**
- * 循环链表（单向）
+ * 单项循环链表
  */
 public class LoopNode {
 

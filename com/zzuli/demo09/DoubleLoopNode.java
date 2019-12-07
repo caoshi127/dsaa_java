@@ -1,5 +1,8 @@
 package com.zzuli.demo09;
 
+/**
+ *  双向循环链表, 改进新增节点的方法.
+ */
 public class DoubleLoopNode {
 
     private int data;
@@ -26,6 +29,7 @@ public class DoubleLoopNode {
 
     /**
      * 新增节点， 不需要保存之前的下一个节点
+     *
      * @param node
      */
     public void addNode(DoubleLoopNode node) {
@@ -40,10 +44,8 @@ public class DoubleLoopNode {
         do {
             System.out.print(cur.getData() + "->");
             cur = cur.next;
-        } while(cur != head);
+        } while (cur != head);
     }
-
-
 
 
 }

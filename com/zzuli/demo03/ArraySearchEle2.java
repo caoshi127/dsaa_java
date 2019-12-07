@@ -9,7 +9,7 @@ package com.zzuli.demo03;
  */
 public class ArraySearchEle2 {
     public static void main(String[] args) {
-        int[] arr = new int[] {2, 3, 4, 5, 7, 8, 9, 10};
+        int[] arr = new int[]{2, 3, 4, 5, 7, 8, 9, 10};
         int target = 7;
         int index = -1;
         int low = 0, high = arr.length - 1, mid = 0;
